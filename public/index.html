@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!doctype html>
+
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="nabosecurity">
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+    <title>Startup After School</title>
+
+     <!-- Custom CSS -->
+     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- JS -->
+    <script src="libs/angular/angular.min.js"></script>
+    <script src="libs/angular-route/angular-route.min.js"></script>
+    <script src="libs/bootstrap/dist/css/bootstrap.min.css"></script>
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="js/services/test_post.js"></script>
+    <script src="js/controllers/main.js"></script>
+    <script src="core.js"></script>
+
+
+</head>
+<!-- SET THE CONTROLLER AND GET ALL blog_post -->
+<body ng-controller="mainController" id="page-top" class="index">
+
+<h1>This Is Startup After School!</h1>
+<input type="text" placeholder="Enter Your Name..." ng-model="name" required>
+<div>{{name}}</div>
+
+</body>
+</html>

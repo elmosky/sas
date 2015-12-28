@@ -1,0 +1,22 @@
+{
+  "name": "starter-node-angular",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "latest",
+    "font-awesome": "latest",
+    "animate.css": "latest",
+    "angular": "latest",
+    "angular-route": "latest",
+    "wow.js": "latest",
+    "jquery": "latest"
+  },
+  "authors": [
+    "theprinc <jnhockey19@ufl.edu>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true
+}
